@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancePlanner.TaxServices.Application", "FinancePlanner.TaxServices.Application\FinancePlanner.TaxServices.Application.csproj", "{ABCFD5FC-3204-4319-974F-D0B7160F64FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancePlanner.TaxServices.Domain", "FinancePlanner.TaxServices.Domain\FinancePlanner.TaxServices.Domain.csproj", "{66360B9A-F44C-4764-B496-0AB911235E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancePlanner.TaxServices.Infrastructure", "FinancePlanner.TaxServices.Infrastructure\FinancePlanner.TaxServices.Infrastructure.csproj", "{64B16EBA-8F20-4BE5-80CB-B0858C852EC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancePlanner.TaxServices.Services", "FinancePlanner.TaxServices.Services\FinancePlanner.TaxServices.Services.csproj", "{FCB209E0-AB8D-4FAF-B702-0FED25289443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{E15BDB25-C1BF-43B8-B6A6-088510807C14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxServices.Plugins.FedTax.W4Before2020", "Plugins\TaxServices.Plugins.FedTax.W4Before2020\TaxServices.Plugins.FedTax.W4Before2020.csproj", "{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxServices.Plugins.FedTax.W4FromOrAfter2020", "Plugins\TaxServices.Plugins.FedTax.W4FromOrAfter2020\TaxServices.Plugins.FedTax.W4FromOrAfter2020.csproj", "{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABCFD5FC-3204-4319-974F-D0B7160F64FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCFD5FC-3204-4319-974F-D0B7160F64FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCFD5FC-3204-4319-974F-D0B7160F64FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCFD5FC-3204-4319-974F-D0B7160F64FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66360B9A-F44C-4764-B496-0AB911235E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66360B9A-F44C-4764-B496-0AB911235E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66360B9A-F44C-4764-B496-0AB911235E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66360B9A-F44C-4764-B496-0AB911235E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B16EBA-8F20-4BE5-80CB-B0858C852EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B16EBA-8F20-4BE5-80CB-B0858C852EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B16EBA-8F20-4BE5-80CB-B0858C852EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B16EBA-8F20-4BE5-80CB-B0858C852EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB209E0-AB8D-4FAF-B702-0FED25289443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB209E0-AB8D-4FAF-B702-0FED25289443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB209E0-AB8D-4FAF-B702-0FED25289443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB209E0-AB8D-4FAF-B702-0FED25289443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D6C3BAF-9F87-47BF-A339-37F70DEB2A32} = {E15BDB25-C1BF-43B8-B6A6-088510807C14}
+		{E68229F6-19E7-4DC5-93F0-B5C9A6C550E9} = {E15BDB25-C1BF-43B8-B6A6-088510807C14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3812786-AE29-4701-8CD8-DFA6BB4C3C62}
+	EndGlobalSection
+EndGlobal
